@@ -1,0 +1,25 @@
+Explanation
+
+1. Movie Class:
+    - Represents a movie with attributes: title, release date, genre, and IMDb rating.
+
+2. BSTNode Class:
+    - Represents a node in the BST. Each node contains a `Movie` object and pointers to left and right children.
+
+3. MovieBST Class:
+    - Contains the root of the BST and methods to insert movies and perform pre-order, in-order, and post-order traversals.
+    - The `insert` method inserts a new movie into the BST based on the title (for simplicity).
+    - The `preOrderRec`, `inOrderRec`, and `postOrderRec` methods are used to traverse the tree recursively in pre-order, in-order, and post-order respectively.
+
+4. Main Method:
+    - Demonstrates the insertion of sample movies and the traversal of the BST in pre-order, in-order, and post-order.
+
+Usage
+
+- Insertion: Movies are inserted into the BST based on their titles. The title is used as the key for comparison.
+- Traversal: 
+  - Pre-order: Visits the root node first, then the left subtree, followed by the right subtree.
+  - In-order: Visits the left subtree first, then the root node, followed by the right subtree.
+  - Post-order: Visits the left subtree first, then the right subtree, followed by the root node.
+
+This implementation provides a simple yet effective way to manage and traverse a collection of movies in a binary search tree.
